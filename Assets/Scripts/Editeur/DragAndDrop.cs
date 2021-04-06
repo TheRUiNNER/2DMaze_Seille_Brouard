@@ -5,11 +5,15 @@ using UnityEngine;
 
 public class DragAndDrop : MonoBehaviour
 {
+    public GameObject WallPrefab;
+    
     private bool isDragging = false;
 
     public void OnMouseDown()
     {
         isDragging = true;
+        
+        Instantiate(WallPrefab);
     }
 
     public void OnMouseUp()
@@ -19,13 +23,17 @@ public class DragAndDrop : MonoBehaviour
 
     private void Update()
     {
-        //Instantiate()
-        
         if (isDragging)
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 deplacerParCase = new Vector2((int) mousePosition.x + 0.5f, (int) mousePosition.y + 0.5f);
+
             transform.position = deplacerParCase;
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            Destroy(WallPrefab);
         }
     }
 }
