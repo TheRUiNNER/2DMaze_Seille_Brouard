@@ -30,7 +30,9 @@ public class DragAndDrop : MonoBehaviour
 
             transform.position = deplacerParCase;
         }
-
+    }
+    public void OnMouseOver()
+    {
         if (Input.GetMouseButtonDown(1))
         {
             Destroy(WallPrefab);
