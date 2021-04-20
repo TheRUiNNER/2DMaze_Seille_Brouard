@@ -6,13 +6,12 @@ using UnityEngine;
 public class DragAndDrop : MonoBehaviour
 {
     public GameObject WallPrefab;
-    
-    private bool isDragging = false;
 
+    private bool isDragging = false;
+    
     public void OnMouseDown()
     {
         isDragging = true;
-        
         Instantiate(WallPrefab);
     }
 
@@ -23,6 +22,7 @@ public class DragAndDrop : MonoBehaviour
 
     private void Update()
     {
+
         if (isDragging)
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
