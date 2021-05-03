@@ -33,6 +33,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/IHM/IA.cs" />
       <option value="$PROJECT_DIR$/Assets/scan.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Editeur/DragAndDrop.cs" />
+      <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qTvJCGV9vUm2z0CQZqT9KvA6Bd" />
@@ -90,6 +91,7 @@
       <workItem from="1617712320940" duration="891000" />
       <workItem from="1617713248841" duration="7259000" />
       <workItem from="1618902638526" duration="17644000" />
+      <workItem from="1619528685388" duration="789000" />
     </task>
     <servers />
   </component>
