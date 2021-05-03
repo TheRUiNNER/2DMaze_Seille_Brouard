@@ -211,18 +211,19 @@
             <e p="UnityReferenceHelper.cs" t="Include" />
           </e>
         </e>
-        <e p="MainMenu.cs" t="Include" />
-        <e p="scan.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Editeur" t="Include">
             <e p="Drag_And_Drop_Once.cs" t="Include" />
             <e p="DragAndDrop.cs" t="Include" />
             <e p="InstancierMur.cs" t="Include" />
+            <e p="MainMenu.cs" t="Include" />
+            <e p="PauseMenu.cs" t="Include" />
           </e>
           <e p="IHM" t="Include">
             <e p="IA.cs" t="Include" />
+            <e p="scan.cs" t="Include" />
+            <e p="spawnPlayer.cs" t="Include" />
           </e>
-          <e p="spawnPlayer.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
@@ -298,6 +299,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="triggerBoue.cs" t="Include" />
       </e>
       <e p="AstarPathfindingProject.csproj" t="IncludeRecursive" />
       <e p="AstarPathfindingProjectEditor.csproj" t="IncludeRecursive" />
