@@ -8,6 +8,8 @@ public class triggerBoue : MonoBehaviour
 {
     private AIPath _aiPath;
 
+    private Animator _animator;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         _aiPath = GetComponent<AIPath>();

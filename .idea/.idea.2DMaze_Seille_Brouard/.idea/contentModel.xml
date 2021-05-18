@@ -211,6 +211,8 @@
             <e p="UnityReferenceHelper.cs" t="Include" />
           </e>
         </e>
+        <e p="IA_controller.cs" t="Include" />
+        <e p="resetPlayer.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Editeur" t="Include">
             <e p="Drag_And_Drop_Once.cs" t="Include" />
@@ -300,6 +302,7 @@
           </e>
         </e>
         <e p="triggerBoue.cs" t="Include" />
+        <e p="TriggerDoor.cs" t="Include" />
       </e>
       <e p="AstarPathfindingProject.csproj" t="IncludeRecursive" />
       <e p="AstarPathfindingProjectEditor.csproj" t="IncludeRecursive" />

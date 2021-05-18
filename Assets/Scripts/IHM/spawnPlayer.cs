@@ -5,15 +5,9 @@ using UnityEngine;
 public class spawnPlayer : MonoBehaviour
 {
     public Transform player;
-    private bool spawned = false;
 
     public void SpawnPlayer()
     {
-        if (!spawned)
-        {
-            player.position = transform.position;
-
-            spawned = true;
-        }
+        player.position = transform.position;
     }
 }
