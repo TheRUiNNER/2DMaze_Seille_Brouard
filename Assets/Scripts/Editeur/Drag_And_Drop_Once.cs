@@ -7,6 +7,8 @@ public class Drag_And_Drop_Once : MonoBehaviour
 
     private bool isDragging = false;
 
+    private int deplacement;
+
     public void OnMouseDown()
     {
         isDragging = true;
@@ -19,7 +21,9 @@ public class Drag_And_Drop_Once : MonoBehaviour
 
     private void Update()
     {
-        if (isDragging)
+        deplacement = PlayerPrefs.GetInt("deplacerObjet");
+        
+        if (isDragging && deplacement==1)
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 deplacerParCase = new Vector2((int) mousePosition.x + 0.5f, (int) mousePosition.y + 0.5f);

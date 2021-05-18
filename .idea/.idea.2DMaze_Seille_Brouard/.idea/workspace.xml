@@ -21,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/TriggerDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IHM/IA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/deplacerObjets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/resetPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Project-M/Project-M/Assets/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IHM/scan.cs" root0="FORCE_HIGHLIGHTING" />
@@ -34,7 +35,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/spawnPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/IHM/IA.cs" />
       <option value="$PROJECT_DIR$/Assets/scan.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Editeur/DragAndDrop.cs" />
       <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Editeur/PauseMenu.cs" />
@@ -44,6 +44,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/IHM/spawnPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/TriggerDoor.cs" />
       <option value="$PROJECT_DIR$/Assets/IA_controller.cs" />
+      <option value="$PROJECT_DIR$/Assets/deplacerObjets.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Editeur/DragAndDrop.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Editeur/Drag_And_Drop_Once.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qTvJCGV9vUm2z0CQZqT9KvA6Bd" />
@@ -109,6 +112,10 @@
       <workItem from="1620131301641" duration="2715000" />
       <workItem from="1620630700216" duration="14000" />
       <workItem from="1620735737602" duration="3381000" />
+      <workItem from="1621323699308" duration="2316000" />
+      <workItem from="1621326432537" duration="992000" />
+      <workItem from="1621328117689" duration="35000" />
+      <workItem from="1621328672488" duration="335000" />
     </task>
     <servers />
   </component>
