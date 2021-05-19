@@ -58,6 +58,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TriggerDoor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Scripts\API\apiHandler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Scripts\Editeur\Drag_And_Drop_Once.cs" />
      <Compile Include="Assets\Scripts\IHM\spawnPlayer.cs" />

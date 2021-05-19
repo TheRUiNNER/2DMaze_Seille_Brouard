@@ -215,6 +215,9 @@
         <e p="IA_controller.cs" t="Include" />
         <e p="resetPlayer.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="API" t="Include">
+            <e p="apiHandler.cs" t="Include" />
+          </e>
           <e p="Editeur" t="Include">
             <e p="Drag_And_Drop_Once.cs" t="Include" />
             <e p="DragAndDrop.cs" t="Include" />

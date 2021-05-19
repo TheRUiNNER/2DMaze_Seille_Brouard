@@ -47,6 +47,7 @@
       <option value="$PROJECT_DIR$/Assets/deplacerObjets.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Editeur/DragAndDrop.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Editeur/Drag_And_Drop_Once.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/API/apiHandler.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qTvJCGV9vUm2z0CQZqT9KvA6Bd" />
@@ -116,6 +117,9 @@
       <workItem from="1621326432537" duration="992000" />
       <workItem from="1621328117689" duration="35000" />
       <workItem from="1621328672488" duration="335000" />
+      <workItem from="1621349762575" duration="3488000" />
+      <workItem from="1621359954560" duration="2491000" />
+      <workItem from="1621452773199" duration="1530000" />
     </task>
     <servers />
   </component>
